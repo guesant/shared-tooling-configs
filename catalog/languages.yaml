@@ -1,0 +1,11 @@
+languages:
+  - generic
+  - javascript
+  - typescript
+  - go
+  - php
+  - csharp
+  - python
+  - shell
+  - yaml
+  - markdown
