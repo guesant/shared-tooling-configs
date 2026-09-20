@@ -1,0 +1,70 @@
+repository: guesant/hl-infrastructure
+ref: main
+
+sources:
+  - justfile
+  - .config/
+  - .github/workflows/
+  - .github/actions/
+  - .tools/docker/Dockerfile
+  - .tools/
+
+tooling:
+  orchestration:
+    - just
+    - github-actions
+    - github-cli
+
+  containers:
+    - docker
+    - docker-buildx
+
+  infrastructure:
+    - ansible
+    - ansible-lint
+    - helm
+    - opentofu
+    - kubectl
+    - k3s
+    - conftest
+
+  code-quality:
+    - actionlint
+    - ast-grep
+    - commitlint
+    - jscpd
+    - markdownlint-cli2
+    - shellcheck
+    - hadolint
+    - yamllint
+
+  documentation:
+    - mkdocs
+    - vale
+    - languagetool
+    - cspell
+    - lychee
+
+  security:
+    - zizmor
+    - gitleaks
+    - osv-scanner
+    - trivy
+    - checkov
+    - kubescape
+    - kube-linter
+    - kubeconform
+    - openssf-scorecard
+
+  secrets:
+    - sops
+    - age
+    - age-plugin-se
+
+  dependency-management:
+    - renovate
+
+notes:
+  - Tool directories remain placeholders during the inventory phase.
+  - Unix utilities used as implementation details are not promoted as catalog tools yet.
+  - GitHub marketplace actions used only as workflow building blocks remain represented by the github-actions tool instead of receiving individual tool entries.
