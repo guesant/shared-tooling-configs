@@ -16,6 +16,20 @@ Those relationships belong to catalog metadata.
 
 A concrete tool or platform used during software development, delivery, maintenance, or operations.
 
+A tool belongs under `tools/` when reusable configuration, presets, policies, or integration artifacts are expected for it.
+
+### Utility
+
+A command or small supporting program that is useful during engineering work but does not necessarily justify reusable configuration.
+
+Utilities are cataloged in `catalog/utilities.yaml`. A utility may later be promoted to a tool without changing its cheatsheet.
+
+### Cheatsheet
+
+A concise reference for recurring commands and operational patterns.
+
+Cheatsheets live under `docs/cheatsheets/`. They are reference documentation, not tutorials, and may cover both full tools and small utilities.
+
 ### Capability
 
 A problem or responsibility a tool can address. A tool may provide one or many capabilities.
@@ -48,6 +62,8 @@ A record of tooling observed in an existing repository. Inventory entries are ev
 
 The physical tree answers where the canonical configuration lives.
 
-The catalog should answer questions such as which tools provide duplication detection, which tools apply to TypeScript, which options can run in CI, and which recipes suit a given project.
+The catalog should answer questions such as which tools provide duplication detection, which tools apply to TypeScript, which utilities are commonly used for structured data, and which recipes suit a given project.
+
+The cheatsheets answer how to perform recurring operations quickly without turning every utility into a configured tool.
 
 Symlinks are not used as the primary navigation mechanism. They encode filesystem relationships but cannot explain why a tool belongs to a category, how strongly it covers a capability, or how it overlaps with other tooling.

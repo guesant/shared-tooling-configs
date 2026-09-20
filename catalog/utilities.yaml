@@ -1,0 +1,78 @@
+utilities:
+  bash:
+    category: shell
+    representation: tool
+    cheatsheet: docs/cheatsheets/shell/bash.md
+    commands: [bash]
+
+  coreutils:
+    category: shell
+    representation: reference-only
+    cheatsheet: docs/cheatsheets/shell/files-and-streams.md
+    commands: [cat, cp, mv, rm, mkdir, pwd, printf, sort, uniq, tee]
+
+  text-processing:
+    category: shell
+    representation: reference-only
+    cheatsheet: docs/cheatsheets/shell/text-processing.md
+    commands: [grep, sed, awk, cut, tr, wc]
+
+  file-search:
+    category: shell
+    representation: reference-only
+    cheatsheet: docs/cheatsheets/shell/files-and-streams.md
+    commands: [find, head, tail]
+
+  encoding-and-digests:
+    category: shell
+    representation: reference-only
+    cheatsheet: docs/cheatsheets/shell/files-and-streams.md
+    commands: [base64, sha256sum]
+
+  jq:
+    category: structured-data
+    representation: tool
+    cheatsheet: docs/cheatsheets/structured-data/jq.md
+    commands: [jq]
+
+  yq:
+    category: structured-data
+    representation: tool
+    cheatsheet: docs/cheatsheets/structured-data/yq.md
+    commands: [yq]
+
+  curl:
+    category: network
+    representation: tool
+    cheatsheet: docs/cheatsheets/network/curl.md
+    commands: [curl]
+
+  openssh:
+    category: network
+    representation: tool
+    cheatsheet: docs/cheatsheets/network/openssh.md
+    commands: [ssh, ssh-keygen, ssh-keyscan]
+
+  openssl:
+    category: security
+    representation: tool
+    cheatsheet: docs/cheatsheets/security/openssl.md
+    commands: [openssl]
+
+  systemd:
+    category: system
+    representation: tool
+    cheatsheet: docs/cheatsheets/system/systemd.md
+    commands: [systemctl, journalctl]
+
+  host-network:
+    category: system
+    representation: reference-only
+    cheatsheet: docs/cheatsheets/system/host-network.md
+    commands: [rfkill, ipset, rpcinfo]
+
+  git:
+    category: version-control
+    representation: tool
+    cheatsheet: docs/cheatsheets/git/git.md
+    commands: [git]

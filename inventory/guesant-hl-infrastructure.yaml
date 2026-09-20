@@ -180,7 +180,7 @@ notes:
   - Tool directories remain placeholders during the inventory phase.
   - The inventory includes CI executables, tools configured by Ansible, components managed by Argo CD, providers consumed by OpenTofu, and documentation build tooling.
   - A component may appear in more than one category because categories describe capabilities and roles rather than ownership.
-  - Supporting packages and generic shell utilities are mapped here but are not automatically promoted to tools/ unless they gain reusable configuration of their own.
+  - Supporting packages and generic shell utilities are cataloged in catalog/utilities.yaml and may have cheatsheets without being promoted to tools/.
   - GitHub marketplace actions are mapped as dependencies of github-actions instead of receiving individual tool directories.
   - openssh is the canonical tool name for sshd configuration.
   - sysctl and journald are retained as configuration targets even though they are operating-system subsystems rather than standalone projects.
