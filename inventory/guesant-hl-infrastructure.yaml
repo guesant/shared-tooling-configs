@@ -66,6 +66,12 @@ tooling:
     - portainer
     - reloader
     - kube-prometheus-stack
+    - prometheus
+    - prometheus-operator
+    - alertmanager
+    - grafana
+    - kube-state-metrics
+    - prometheus-node-exporter
     - prometheus-blackbox-exporter
     - local-path-provisioner
     - cloudflared
@@ -119,3 +125,4 @@ notes:
   - GitHub marketplace actions used only as workflow building blocks remain represented by github-actions instead of receiving individual tool entries.
   - openssh is the canonical tool name for sshd configuration.
   - sysctl and journald are retained as configuration targets even though they are operating-system subsystems rather than standalone projects.
+  - Aggregate charts and their directly configured components may both appear when the repository owns configuration for each level.
