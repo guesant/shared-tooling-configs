@@ -2,6 +2,7 @@ repository: guesant/hl-infrastructure
 ref: main
 
 sources:
+  - README.md
   - justfile
   - .config/
   - .github/workflows/
@@ -12,6 +13,7 @@ sources:
   - ansible/group_vars/
   - argocd/
   - tofu/
+  - docs/requirements.in
 
 tooling:
   orchestration:
@@ -22,6 +24,7 @@ tooling:
   containers:
     - docker
     - docker-buildx
+    - containerd
 
   infrastructure-as-code:
     - ansible
@@ -40,6 +43,7 @@ tooling:
   host-configuration:
     - apparmor
     - auditd
+    - dnsmasq
     - fail2ban
     - firewalld
     - journald
@@ -50,15 +54,22 @@ tooling:
     - tailscale
     - unattended-upgrades
 
+  host-supporting-dependencies:
+    - ipset
+    - rfkill
+    - rpcbind
+
   kubernetes-platform:
     - kubernetes
     - argocd
     - cilium
     - cilium-cli
+    - hubble
     - helm
     - kargo
     - cert-manager
     - cloudnative-pg
+    - postgresql
     - sops-secrets-operator
     - kube-bench
     - traefik
@@ -91,6 +102,9 @@ tooling:
 
   documentation:
     - mkdocs
+    - mkdocs-material
+    - pymdown-extensions
+    - mermaid
     - vale
     - languagetool
     - cspell
@@ -113,16 +127,62 @@ tooling:
     - age
     - age-plugin-se
     - sops-secrets-operator
+    - openssl
+
+  runtime-utilities:
+    - bash
+    - python
+    - curl
+    - jq
+    - yq
+    - git
 
   dependency-management:
     - renovate
 
+  external-platforms:
+    - github
+    - cloudflare
+
+github-actions-dependencies:
+  - actions/cache
+  - actions/checkout
+  - actions/configure-pages
+  - actions/deploy-pages
+  - actions/setup-python
+  - actions/upload-artifact
+  - actions/upload-pages-artifact
+  - docker/setup-buildx-action
+  - dorny/paths-filter
+  - github/codeql-action/upload-sarif
+  - ossf/scorecard-action
+  - renovatebot/github-action
+  - zizmorcore/zizmor-action
+
+not-promoted-to-tool-placeholder:
+  generic-shell-utilities:
+    - coreutils
+    - grep
+    - sed
+    - awk
+    - find
+    - cut
+    - head
+    - tail
+    - tr
+    - base64
+    - sha256sum
+    - wc
+  managed-but-not-used-as-tooling:
+    - rpcbind
+
 notes:
   - Tool directories remain placeholders during the inventory phase.
-  - The inventory includes tools configured by Ansible, components managed by Argo CD, and providers consumed by OpenTofu, not only CI executables.
+  - The inventory includes CI executables, tools configured by Ansible, components managed by Argo CD, providers consumed by OpenTofu, and documentation build tooling.
   - A component may appear in more than one category because categories describe capabilities and roles rather than ownership.
-  - Unix utilities used only as implementation details, such as grep, curl, jq, base64, and coreutils, are not promoted as catalog tools yet.
-  - GitHub marketplace actions used only as workflow building blocks remain represented by github-actions instead of receiving individual tool entries.
+  - Supporting packages and generic shell utilities are mapped here but are not automatically promoted to tools/ unless they gain reusable configuration of their own.
+  - GitHub marketplace actions are mapped as dependencies of github-actions instead of receiving individual tool directories.
   - openssh is the canonical tool name for sshd configuration.
   - sysctl and journald are retained as configuration targets even though they are operating-system subsystems rather than standalone projects.
-  - Aggregate charts and their directly configured components may both appear when the repository owns configuration for each level.
+  - Aggregate charts and directly configured components may both appear when the repository owns configuration for each level.
+  - References that exist only in learning documentation are not inventory entries unless they are also used or configured by the repository.
