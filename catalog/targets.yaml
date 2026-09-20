@@ -1,0 +1,12 @@
+targets:
+  - application
+  - library
+  - service
+  - monolith
+  - microservice
+  - frontend
+  - backend
+  - cli
+  - documentation
+  - infrastructure
+  - repository
