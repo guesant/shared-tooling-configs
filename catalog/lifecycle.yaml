@@ -1,0 +1,10 @@
+lifecycle:
+  - authoring
+  - pre-commit
+  - build
+  - test
+  - ci
+  - delivery
+  - deployment
+  - operations
+  - maintenance
