@@ -8,6 +8,10 @@ sources:
   - .github/actions/
   - .tools/docker/Dockerfile
   - .tools/
+  - ansible/roles/
+  - ansible/group_vars/
+  - argocd/
+  - tofu/
 
 tooling:
   orchestration:
@@ -19,7 +23,7 @@ tooling:
     - docker
     - docker-buildx
 
-  infrastructure:
+  infrastructure-as-code:
     - ansible
     - ansible-lint
     - helm
@@ -27,6 +31,47 @@ tooling:
     - kubectl
     - k3s
     - conftest
+
+  opentofu-providers:
+    - terraform-provider-cloudflare
+    - terraform-provider-keycloak
+    - terraform-provider-tailscale
+
+  host-configuration:
+    - apparmor
+    - auditd
+    - fail2ban
+    - firewalld
+    - journald
+    - openssh
+    - smartmontools
+    - sysctl
+    - systemd
+    - tailscale
+    - unattended-upgrades
+
+  kubernetes-platform:
+    - kubernetes
+    - argocd
+    - cilium
+    - cilium-cli
+    - helm
+    - kargo
+    - cert-manager
+    - cloudnative-pg
+    - sops-secrets-operator
+    - kube-bench
+    - traefik
+    - oauth2-proxy
+    - portainer
+    - reloader
+    - kube-prometheus-stack
+    - prometheus-blackbox-exporter
+    - local-path-provisioner
+    - cloudflared
+    - dashy
+    - keycloak
+    - stakater-application
 
   code-quality:
     - actionlint
@@ -55,16 +100,22 @@ tooling:
     - kube-linter
     - kubeconform
     - openssf-scorecard
+    - kube-bench
 
   secrets:
     - sops
     - age
     - age-plugin-se
+    - sops-secrets-operator
 
   dependency-management:
     - renovate
 
 notes:
   - Tool directories remain placeholders during the inventory phase.
-  - Unix utilities used as implementation details are not promoted as catalog tools yet.
-  - GitHub marketplace actions used only as workflow building blocks remain represented by the github-actions tool instead of receiving individual tool entries.
+  - The inventory includes tools configured by Ansible, components managed by Argo CD, and providers consumed by OpenTofu, not only CI executables.
+  - A component may appear in more than one category because categories describe capabilities and roles rather than ownership.
+  - Unix utilities used only as implementation details, such as grep, curl, jq, base64, and coreutils, are not promoted as catalog tools yet.
+  - GitHub marketplace actions used only as workflow building blocks remain represented by github-actions instead of receiving individual tool entries.
+  - openssh is the canonical tool name for sshd configuration.
+  - sysctl and journald are retained as configuration targets even though they are operating-system subsystems rather than standalone projects.
