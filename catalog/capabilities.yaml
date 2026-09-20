@@ -1,0 +1,43 @@
+capabilities:
+  code-quality:
+    - linting
+    - formatting
+    - complexity
+    - duplication-detection
+    - dead-code-detection
+    - maintainability
+  testing:
+    - unit-testing
+    - integration-testing
+    - end-to-end-testing
+    - coverage
+  security:
+    - sast
+    - secret-scanning
+    - dependency-scanning
+    - workflow-security
+    - container-scanning
+  documentation:
+    - documentation-site
+    - prose-linting
+    - link-checking
+    - api-documentation
+  dependency-management:
+    - dependency-updates
+    - dependency-policy
+    - vulnerability-management
+  ci-cd:
+    - continuous-integration
+    - continuous-delivery
+    - continuous-deployment
+    - release-automation
+  infrastructure:
+    - provisioning
+    - configuration-management
+    - infrastructure-as-code
+    - containerization
+  repository-governance:
+    - repository-health
+    - contribution-policy
+    - ownership
+    - automation
