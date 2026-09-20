@@ -1,0 +1,1079 @@
+source_repository: guesant/hl-infrastructure
+source_scope: docs/
+audited_markdown_files: 151
+classification:
+  include:
+    - software
+    - command-line-tools
+    - operators
+    - runtimes
+    - engineering-platforms
+    - named-services-used-as-engineering-tools
+  exclude:
+    - protocols
+    - standards
+    - data-formats
+    - concepts
+    - organizations
+    - programming-languages
+    - hardware
+tools:
+  - id: actionlint
+    placeholder: tools/actionlint/
+    cheatsheet: docs/cheatsheets/tools/actionlint.md
+  - id: age
+    placeholder: tools/age/
+    cheatsheet: docs/cheatsheets/tools/age.md
+  - id: age-keygen
+    placeholder: tools/age-keygen/
+    cheatsheet: docs/cheatsheets/tools/age-keygen.md
+  - id: age-plugin-se
+    placeholder: tools/age-plugin-se/
+    cheatsheet: docs/cheatsheets/tools/age-plugin-se.md
+  - id: alertmanager
+    placeholder: tools/alertmanager/
+    cheatsheet: docs/cheatsheets/tools/alertmanager.md
+  - id: ansible
+    placeholder: tools/ansible/
+    cheatsheet: docs/cheatsheets/tools/ansible.md
+  - id: ansible-galaxy
+    placeholder: tools/ansible-galaxy/
+    cheatsheet: docs/cheatsheets/tools/ansible-galaxy.md
+  - id: ansible-lint
+    placeholder: tools/ansible-lint/
+    cheatsheet: docs/cheatsheets/tools/ansible-lint.md
+  - id: ansible-playbook
+    placeholder: tools/ansible-playbook/
+    cheatsheet: docs/cheatsheets/tools/ansible-playbook.md
+  - id: ansible-pull
+    placeholder: tools/ansible-pull/
+    cheatsheet: docs/cheatsheets/tools/ansible-pull.md
+  - id: apache-http-server
+    placeholder: tools/apache-http-server/
+    cheatsheet: docs/cheatsheets/tools/apache-http-server.md
+  - id: apk
+    placeholder: tools/apk/
+    cheatsheet: docs/cheatsheets/tools/apk.md
+  - id: apparmor
+    placeholder: tools/apparmor/
+    cheatsheet: docs/cheatsheets/tools/apparmor.md
+  - id: apt
+    placeholder: tools/apt/
+    cheatsheet: docs/cheatsheets/tools/apt.md
+  - id: argo-events
+    placeholder: tools/argo-events/
+    cheatsheet: docs/cheatsheets/tools/argo-events.md
+  - id: argo-image-updater
+    placeholder: tools/argo-image-updater/
+    cheatsheet: docs/cheatsheets/tools/argo-image-updater.md
+  - id: argo-rollouts
+    placeholder: tools/argo-rollouts/
+    cheatsheet: docs/cheatsheets/tools/argo-rollouts.md
+  - id: argo-workflows
+    placeholder: tools/argo-workflows/
+    cheatsheet: docs/cheatsheets/tools/argo-workflows.md
+  - id: argocd
+    placeholder: tools/argocd/
+    cheatsheet: docs/cheatsheets/tools/argocd.md
+  - id: arptables
+    placeholder: tools/arptables/
+    cheatsheet: docs/cheatsheets/tools/arptables.md
+  - id: ast-grep
+    placeholder: tools/ast-grep/
+    cheatsheet: docs/cheatsheets/tools/ast-grep.md
+  - id: auditd
+    placeholder: tools/auditd/
+    cheatsheet: docs/cheatsheets/tools/auditd.md
+  - id: avahi
+    placeholder: tools/avahi/
+    cheatsheet: docs/cheatsheets/tools/avahi.md
+  - id: avahi-resolve
+    placeholder: tools/avahi-resolve/
+    cheatsheet: docs/cheatsheets/tools/avahi-resolve.md
+  - id: awk
+    placeholder: tools/awk/
+    cheatsheet: docs/cheatsheets/tools/awk.md
+  - id: aws
+    placeholder: tools/aws/
+    cheatsheet: docs/cheatsheets/tools/aws.md
+  - id: azure
+    placeholder: tools/azure/
+    cheatsheet: docs/cheatsheets/tools/azure.md
+  - id: barman-cloud
+    placeholder: tools/barman-cloud/
+    cheatsheet: docs/cheatsheets/tools/barman-cloud.md
+  - id: base64
+    placeholder: tools/base64/
+    cheatsheet: docs/cheatsheets/tools/base64.md
+  - id: bash
+    placeholder: tools/bash/
+    cheatsheet: docs/cheatsheets/tools/bash.md
+  - id: bind
+    placeholder: tools/bind/
+    cheatsheet: docs/cheatsheets/tools/bind.md
+  - id: bitwarden
+    placeholder: tools/bitwarden/
+    cheatsheet: docs/cheatsheets/tools/bitwarden.md
+  - id: blkid
+    placeholder: tools/blkid/
+    cheatsheet: docs/cheatsheets/tools/blkid.md
+  - id: bottles
+    placeholder: tools/bottles/
+    cheatsheet: docs/cheatsheets/tools/bottles.md
+  - id: bubblewrap
+    placeholder: tools/bubblewrap/
+    cheatsheet: docs/cheatsheets/tools/bubblewrap.md
+  - id: buildah
+    placeholder: tools/buildah/
+    cheatsheet: docs/cheatsheets/tools/buildah.md
+  - id: buildkit
+    placeholder: tools/buildkit/
+    cheatsheet: docs/cheatsheets/tools/buildkit.md
+  - id: busybox
+    placeholder: tools/busybox/
+    cheatsheet: docs/cheatsheets/tools/busybox.md
+  - id: calico
+    placeholder: tools/calico/
+    cheatsheet: docs/cheatsheets/tools/calico.md
+  - id: cassandra
+    placeholder: tools/cassandra/
+    cheatsheet: docs/cheatsheets/tools/cassandra.md
+  - id: cat
+    placeholder: tools/cat/
+    cheatsheet: docs/cheatsheets/tools/cat.md
+  - id: cert-manager
+    placeholder: tools/cert-manager/
+    cheatsheet: docs/cheatsheets/tools/cert-manager.md
+  - id: checkov
+    placeholder: tools/checkov/
+    cheatsheet: docs/cheatsheets/tools/checkov.md
+  - id: chef
+    placeholder: tools/chef/
+    cheatsheet: docs/cheatsheets/tools/chef.md
+  - id: chmod
+    placeholder: tools/chmod/
+    cheatsheet: docs/cheatsheets/tools/chmod.md
+  - id: chown
+    placeholder: tools/chown/
+    cheatsheet: docs/cheatsheets/tools/chown.md
+  - id: chroot
+    placeholder: tools/chroot/
+    cheatsheet: docs/cheatsheets/tools/chroot.md
+  - id: cilium
+    placeholder: tools/cilium/
+    cheatsheet: docs/cheatsheets/tools/cilium.md
+  - id: cilium-cli
+    placeholder: tools/cilium-cli/
+    cheatsheet: docs/cheatsheets/tools/cilium-cli.md
+  - id: cloudflare
+    placeholder: tools/cloudflare/
+    cheatsheet: docs/cheatsheets/tools/cloudflare.md
+  - id: cloudflared
+    placeholder: tools/cloudflared/
+    cheatsheet: docs/cheatsheets/tools/cloudflared.md
+  - id: cloudnative-pg
+    placeholder: tools/cloudnative-pg/
+    cheatsheet: docs/cheatsheets/tools/cloudnative-pg.md
+  - id: cmctl
+    placeholder: tools/cmctl/
+    cheatsheet: docs/cheatsheets/tools/cmctl.md
+  - id: cnpg-barman-plugin
+    placeholder: tools/cnpg-barman-plugin/
+    cheatsheet: docs/cheatsheets/tools/cnpg-barman-plugin.md
+  - id: codeql
+    placeholder: tools/codeql/
+    cheatsheet: docs/cheatsheets/tools/codeql.md
+  - id: comm
+    placeholder: tools/comm/
+    cheatsheet: docs/cheatsheets/tools/comm.md
+  - id: commitlint
+    placeholder: tools/commitlint/
+    cheatsheet: docs/cheatsheets/tools/commitlint.md
+  - id: conftest
+    placeholder: tools/conftest/
+    cheatsheet: docs/cheatsheets/tools/conftest.md
+  - id: conmon
+    placeholder: tools/conmon/
+    cheatsheet: docs/cheatsheets/tools/conmon.md
+  - id: containerd
+    placeholder: tools/containerd/
+    cheatsheet: docs/cheatsheets/tools/containerd.md
+  - id: containerd-shim
+    placeholder: tools/containerd-shim/
+    cheatsheet: docs/cheatsheets/tools/containerd-shim.md
+  - id: coredns
+    placeholder: tools/coredns/
+    cheatsheet: docs/cheatsheets/tools/coredns.md
+  - id: coreutils
+    placeholder: tools/coreutils/
+    cheatsheet: docs/cheatsheets/tools/coreutils.md
+  - id: cp
+    placeholder: tools/cp/
+    cheatsheet: docs/cheatsheets/tools/cp.md
+  - id: crictl
+    placeholder: tools/crictl/
+    cheatsheet: docs/cheatsheets/tools/crictl.md
+  - id: crossover
+    placeholder: tools/crossover/
+    cheatsheet: docs/cheatsheets/tools/crossover.md
+  - id: crun
+    placeholder: tools/crun/
+    cheatsheet: docs/cheatsheets/tools/crun.md
+  - id: cryptomator
+    placeholder: tools/cryptomator/
+    cheatsheet: docs/cheatsheets/tools/cryptomator.md
+  - id: cspell
+    placeholder: tools/cspell/
+    cheatsheet: docs/cheatsheets/tools/cspell.md
+  - id: curl
+    placeholder: tools/curl/
+    cheatsheet: docs/cheatsheets/tools/curl.md
+  - id: cut
+    placeholder: tools/cut/
+    cheatsheet: docs/cheatsheets/tools/cut.md
+  - id: dash
+    placeholder: tools/dash/
+    cheatsheet: docs/cheatsheets/tools/dash.md
+  - id: dashy
+    placeholder: tools/dashy/
+    cheatsheet: docs/cheatsheets/tools/dashy.md
+  - id: date
+    placeholder: tools/date/
+    cheatsheet: docs/cheatsheets/tools/date.md
+  - id: datree
+    placeholder: tools/datree/
+    cheatsheet: docs/cheatsheets/tools/datree.md
+  - id: deck
+    placeholder: tools/deck/
+    cheatsheet: docs/cheatsheets/tools/deck.md
+  - id: df
+    placeholder: tools/df/
+    cheatsheet: docs/cheatsheets/tools/df.md
+  - id: diff
+    placeholder: tools/diff/
+    cheatsheet: docs/cheatsheets/tools/diff.md
+  - id: dig
+    placeholder: tools/dig/
+    cheatsheet: docs/cheatsheets/tools/dig.md
+  - id: discord
+    placeholder: tools/discord/
+    cheatsheet: docs/cheatsheets/tools/discord.md
+  - id: dmesg
+    placeholder: tools/dmesg/
+    cheatsheet: docs/cheatsheets/tools/dmesg.md
+  - id: dnf
+    placeholder: tools/dnf/
+    cheatsheet: docs/cheatsheets/tools/dnf.md
+  - id: dnsmasq
+    placeholder: tools/dnsmasq/
+    cheatsheet: docs/cheatsheets/tools/dnsmasq.md
+  - id: docker
+    placeholder: tools/docker/
+    cheatsheet: docs/cheatsheets/tools/docker.md
+  - id: docker-buildx
+    placeholder: tools/docker-buildx/
+    cheatsheet: docs/cheatsheets/tools/docker-buildx.md
+  - id: docker-compose
+    placeholder: tools/docker-compose/
+    cheatsheet: docs/cheatsheets/tools/docker-compose.md
+  - id: docker-swarm
+    placeholder: tools/docker-swarm/
+    cheatsheet: docs/cheatsheets/tools/docker-swarm.md
+  - id: dockerd
+    placeholder: tools/dockerd/
+    cheatsheet: docs/cheatsheets/tools/dockerd.md
+  - id: du
+    placeholder: tools/du/
+    cheatsheet: docs/cheatsheets/tools/du.md
+  - id: dxvk
+    placeholder: tools/dxvk/
+    cheatsheet: docs/cheatsheets/tools/dxvk.md
+  - id: ebtables
+    placeholder: tools/ebtables/
+    cheatsheet: docs/cheatsheets/tools/ebtables.md
+  - id: echo
+    placeholder: tools/echo/
+    cheatsheet: docs/cheatsheets/tools/echo.md
+  - id: elasticsearch
+    placeholder: tools/elasticsearch/
+    cheatsheet: docs/cheatsheets/tools/elasticsearch.md
+  - id: envoy
+    placeholder: tools/envoy/
+    cheatsheet: docs/cheatsheets/tools/envoy.md
+  - id: etcd
+    placeholder: tools/etcd/
+    cheatsheet: docs/cheatsheets/tools/etcd.md
+  - id: external-secrets-operator
+    placeholder: tools/external-secrets-operator/
+    cheatsheet: docs/cheatsheets/tools/external-secrets-operator.md
+  - id: fail2ban
+    placeholder: tools/fail2ban/
+    cheatsheet: docs/cheatsheets/tools/fail2ban.md
+  - id: find
+    placeholder: tools/find/
+    cheatsheet: docs/cheatsheets/tools/find.md
+  - id: firecracker
+    placeholder: tools/firecracker/
+    cheatsheet: docs/cheatsheets/tools/firecracker.md
+  - id: firewall-cmd
+    placeholder: tools/firewall-cmd/
+    cheatsheet: docs/cheatsheets/tools/firewall-cmd.md
+  - id: firewalld
+    placeholder: tools/firewalld/
+    cheatsheet: docs/cheatsheets/tools/firewalld.md
+  - id: fish
+    placeholder: tools/fish/
+    cheatsheet: docs/cheatsheets/tools/fish.md
+  - id: flannel
+    placeholder: tools/flannel/
+    cheatsheet: docs/cheatsheets/tools/flannel.md
+  - id: gcc
+    placeholder: tools/gcc/
+    cheatsheet: docs/cheatsheets/tools/gcc.md
+  - id: git
+    placeholder: tools/git/
+    cheatsheet: docs/cheatsheets/tools/git.md
+  - id: github
+    placeholder: tools/github/
+    cheatsheet: docs/cheatsheets/tools/github.md
+  - id: github-actions
+    placeholder: tools/github-actions/
+    cheatsheet: docs/cheatsheets/tools/github-actions.md
+  - id: github-cli
+    placeholder: tools/github-cli/
+    cheatsheet: docs/cheatsheets/tools/github-cli.md
+  - id: gitleaks
+    placeholder: tools/gitleaks/
+    cheatsheet: docs/cheatsheets/tools/gitleaks.md
+  - id: gnupg
+    placeholder: tools/gnupg/
+    cheatsheet: docs/cheatsheets/tools/gnupg.md
+  - id: gocryptfs
+    placeholder: tools/gocryptfs/
+    cheatsheet: docs/cheatsheets/tools/gocryptfs.md
+  - id: google-cloud
+    placeholder: tools/google-cloud/
+    cheatsheet: docs/cheatsheets/tools/google-cloud.md
+  - id: gpg
+    placeholder: tools/gpg/
+    cheatsheet: docs/cheatsheets/tools/gpg.md
+  - id: gpg-agent
+    placeholder: tools/gpg-agent/
+    cheatsheet: docs/cheatsheets/tools/gpg-agent.md
+  - id: grafana
+    placeholder: tools/grafana/
+    cheatsheet: docs/cheatsheets/tools/grafana.md
+  - id: grafana-alloy
+    placeholder: tools/grafana-alloy/
+    cheatsheet: docs/cheatsheets/tools/grafana-alloy.md
+  - id: grep
+    placeholder: tools/grep/
+    cheatsheet: docs/cheatsheets/tools/grep.md
+  - id: gvisor
+    placeholder: tools/gvisor/
+    cheatsheet: docs/cheatsheets/tools/gvisor.md
+  - id: hadolint
+    placeholder: tools/hadolint/
+    cheatsheet: docs/cheatsheets/tools/hadolint.md
+  - id: haproxy
+    placeholder: tools/haproxy/
+    cheatsheet: docs/cheatsheets/tools/haproxy.md
+  - id: harbor
+    placeholder: tools/harbor/
+    cheatsheet: docs/cheatsheets/tools/harbor.md
+  - id: head
+    placeholder: tools/head/
+    cheatsheet: docs/cheatsheets/tools/head.md
+  - id: headscale
+    placeholder: tools/headscale/
+    cheatsheet: docs/cheatsheets/tools/headscale.md
+  - id: helm
+    placeholder: tools/helm/
+    cheatsheet: docs/cheatsheets/tools/helm.md
+  - id: history
+    placeholder: tools/history/
+    cheatsheet: docs/cheatsheets/tools/history.md
+  - id: htop
+    placeholder: tools/htop/
+    cheatsheet: docs/cheatsheets/tools/htop.md
+  - id: hubble
+    placeholder: tools/hubble/
+    cheatsheet: docs/cheatsheets/tools/hubble.md
+  - id: incus
+    placeholder: tools/incus/
+    cheatsheet: docs/cheatsheets/tools/incus.md
+  - id: infisical
+    placeholder: tools/infisical/
+    cheatsheet: docs/cheatsheets/tools/infisical.md
+  - id: info
+    placeholder: tools/info/
+    cheatsheet: docs/cheatsheets/tools/info.md
+  - id: ip6tables
+    placeholder: tools/ip6tables/
+    cheatsheet: docs/cheatsheets/tools/ip6tables.md
+  - id: iperf3
+    placeholder: tools/iperf3/
+    cheatsheet: docs/cheatsheets/tools/iperf3.md
+  - id: iproute2
+    placeholder: tools/iproute2/
+    cheatsheet: docs/cheatsheets/tools/iproute2.md
+  - id: ipset
+    placeholder: tools/ipset/
+    cheatsheet: docs/cheatsheets/tools/ipset.md
+  - id: iptables
+    placeholder: tools/iptables/
+    cheatsheet: docs/cheatsheets/tools/iptables.md
+  - id: iptables-nft
+    placeholder: tools/iptables-nft/
+    cheatsheet: docs/cheatsheets/tools/iptables-nft.md
+  - id: istio
+    placeholder: tools/istio/
+    cheatsheet: docs/cheatsheets/tools/istio.md
+  - id: jmeter
+    placeholder: tools/jmeter/
+    cheatsheet: docs/cheatsheets/tools/jmeter.md
+  - id: journalctl
+    placeholder: tools/journalctl/
+    cheatsheet: docs/cheatsheets/tools/journalctl.md
+  - id: journald
+    placeholder: tools/journald/
+    cheatsheet: docs/cheatsheets/tools/journald.md
+  - id: jq
+    placeholder: tools/jq/
+    cheatsheet: docs/cheatsheets/tools/jq.md
+  - id: jscpd
+    placeholder: tools/jscpd/
+    cheatsheet: docs/cheatsheets/tools/jscpd.md
+  - id: just
+    placeholder: tools/just/
+    cheatsheet: docs/cheatsheets/tools/just.md
+  - id: k0s
+    placeholder: tools/k0s/
+    cheatsheet: docs/cheatsheets/tools/k0s.md
+  - id: k3s
+    placeholder: tools/k3s/
+    cheatsheet: docs/cheatsheets/tools/k3s.md
+  - id: k6
+    placeholder: tools/k6/
+    cheatsheet: docs/cheatsheets/tools/k6.md
+  - id: kafka
+    placeholder: tools/kafka/
+    cheatsheet: docs/cheatsheets/tools/kafka.md
+  - id: kargo
+    placeholder: tools/kargo/
+    cheatsheet: docs/cheatsheets/tools/kargo.md
+  - id: kata-containers
+    placeholder: tools/kata-containers/
+    cheatsheet: docs/cheatsheets/tools/kata-containers.md
+  - id: kata-runtime
+    placeholder: tools/kata-runtime/
+    cheatsheet: docs/cheatsheets/tools/kata-runtime.md
+  - id: keycloak
+    placeholder: tools/keycloak/
+    cheatsheet: docs/cheatsheets/tools/keycloak.md
+  - id: kill
+    placeholder: tools/kill/
+    cheatsheet: docs/cheatsheets/tools/kill.md
+  - id: kine
+    placeholder: tools/kine/
+    cheatsheet: docs/cheatsheets/tools/kine.md
+  - id: kong
+    placeholder: tools/kong/
+    cheatsheet: docs/cheatsheets/tools/kong.md
+  - id: kong-ingress-controller
+    placeholder: tools/kong-ingress-controller/
+    cheatsheet: docs/cheatsheets/tools/kong-ingress-controller.md
+  - id: kong-konnect
+    placeholder: tools/kong-konnect/
+    cheatsheet: docs/cheatsheets/tools/kong-konnect.md
+  - id: kopia
+    placeholder: tools/kopia/
+    cheatsheet: docs/cheatsheets/tools/kopia.md
+  - id: ksops
+    placeholder: tools/ksops/
+    cheatsheet: docs/cheatsheets/tools/ksops.md
+  - id: kube-bench
+    placeholder: tools/kube-bench/
+    cheatsheet: docs/cheatsheets/tools/kube-bench.md
+  - id: kube-linter
+    placeholder: tools/kube-linter/
+    cheatsheet: docs/cheatsheets/tools/kube-linter.md
+  - id: kube-prometheus-stack
+    placeholder: tools/kube-prometheus-stack/
+    cheatsheet: docs/cheatsheets/tools/kube-prometheus-stack.md
+  - id: kube-proxy
+    placeholder: tools/kube-proxy/
+    cheatsheet: docs/cheatsheets/tools/kube-proxy.md
+  - id: kube-state-metrics
+    placeholder: tools/kube-state-metrics/
+    cheatsheet: docs/cheatsheets/tools/kube-state-metrics.md
+  - id: kubeadm
+    placeholder: tools/kubeadm/
+    cheatsheet: docs/cheatsheets/tools/kubeadm.md
+  - id: kubeconform
+    placeholder: tools/kubeconform/
+    cheatsheet: docs/cheatsheets/tools/kubeconform.md
+  - id: kubectl
+    placeholder: tools/kubectl/
+    cheatsheet: docs/cheatsheets/tools/kubectl.md
+  - id: kubelet
+    placeholder: tools/kubelet/
+    cheatsheet: docs/cheatsheets/tools/kubelet.md
+  - id: kubernetes
+    placeholder: tools/kubernetes/
+    cheatsheet: docs/cheatsheets/tools/kubernetes.md
+  - id: kubescape
+    placeholder: tools/kubescape/
+    cheatsheet: docs/cheatsheets/tools/kubescape.md
+  - id: kustomize
+    placeholder: tools/kustomize/
+    cheatsheet: docs/cheatsheets/tools/kustomize.md
+  - id: kvm
+    placeholder: tools/kvm/
+    cheatsheet: docs/cheatsheets/tools/kvm.md
+  - id: kyverno
+    placeholder: tools/kyverno/
+    cheatsheet: docs/cheatsheets/tools/kyverno.md
+  - id: languagetool
+    placeholder: tools/languagetool/
+    cheatsheet: docs/cheatsheets/tools/languagetool.md
+  - id: libpod
+    placeholder: tools/libpod/
+    cheatsheet: docs/cheatsheets/tools/libpod.md
+  - id: libvirt
+    placeholder: tools/libvirt/
+    cheatsheet: docs/cheatsheets/tools/libvirt.md
+  - id: linkerd
+    placeholder: tools/linkerd/
+    cheatsheet: docs/cheatsheets/tools/linkerd.md
+  - id: local-path-provisioner
+    placeholder: tools/local-path-provisioner/
+    cheatsheet: docs/cheatsheets/tools/local-path-provisioner.md
+  - id: logrotate
+    placeholder: tools/logrotate/
+    cheatsheet: docs/cheatsheets/tools/logrotate.md
+  - id: loki
+    placeholder: tools/loki/
+    cheatsheet: docs/cheatsheets/tools/loki.md
+  - id: longhorn
+    placeholder: tools/longhorn/
+    cheatsheet: docs/cheatsheets/tools/longhorn.md
+  - id: ls
+    placeholder: tools/ls/
+    cheatsheet: docs/cheatsheets/tools/ls.md
+  - id: lsblk
+    placeholder: tools/lsblk/
+    cheatsheet: docs/cheatsheets/tools/lsblk.md
+  - id: lsns
+    placeholder: tools/lsns/
+    cheatsheet: docs/cheatsheets/tools/lsns.md
+  - id: lsof
+    placeholder: tools/lsof/
+    cheatsheet: docs/cheatsheets/tools/lsof.md
+  - id: lxc
+    placeholder: tools/lxc/
+    cheatsheet: docs/cheatsheets/tools/lxc.md
+  - id: lxd
+    placeholder: tools/lxd/
+    cheatsheet: docs/cheatsheets/tools/lxd.md
+  - id: lychee
+    placeholder: tools/lychee/
+    cheatsheet: docs/cheatsheets/tools/lychee.md
+  - id: machinectl
+    placeholder: tools/machinectl/
+    cheatsheet: docs/cheatsheets/tools/machinectl.md
+  - id: make
+    placeholder: tools/make/
+    cheatsheet: docs/cheatsheets/tools/make.md
+  - id: markdownlint-cli2
+    placeholder: tools/markdownlint-cli2/
+    cheatsheet: docs/cheatsheets/tools/markdownlint-cli2.md
+  - id: maven
+    placeholder: tools/maven/
+    cheatsheet: docs/cheatsheets/tools/maven.md
+  - id: mermaid
+    placeholder: tools/mermaid/
+    cheatsheet: docs/cheatsheets/tools/mermaid.md
+  - id: microk8s
+    placeholder: tools/microk8s/
+    cheatsheet: docs/cheatsheets/tools/microk8s.md
+  - id: mkdir
+    placeholder: tools/mkdir/
+    cheatsheet: docs/cheatsheets/tools/mkdir.md
+  - id: mkdocs
+    placeholder: tools/mkdocs/
+    cheatsheet: docs/cheatsheets/tools/mkdocs.md
+  - id: mkdocs-material
+    placeholder: tools/mkdocs-material/
+    cheatsheet: docs/cheatsheets/tools/mkdocs-material.md
+  - id: molecule
+    placeholder: tools/molecule/
+    cheatsheet: docs/cheatsheets/tools/molecule.md
+  - id: mongodb
+    placeholder: tools/mongodb/
+    cheatsheet: docs/cheatsheets/tools/mongodb.md
+  - id: mount
+    placeholder: tools/mount/
+    cheatsheet: docs/cheatsheets/tools/mount.md
+  - id: mtr
+    placeholder: tools/mtr/
+    cheatsheet: docs/cheatsheets/tools/mtr.md
+  - id: mv
+    placeholder: tools/mv/
+    cheatsheet: docs/cheatsheets/tools/mv.md
+  - id: mysql
+    placeholder: tools/mysql/
+    cheatsheet: docs/cheatsheets/tools/mysql.md
+  - id: nats
+    placeholder: tools/nats/
+    cheatsheet: docs/cheatsheets/tools/nats.md
+  - id: netcat
+    placeholder: tools/netcat/
+    cheatsheet: docs/cheatsheets/tools/netcat.md
+  - id: netfilter
+    placeholder: tools/netfilter/
+    cheatsheet: docs/cheatsheets/tools/netfilter.md
+  - id: netshoot
+    placeholder: tools/netshoot/
+    cheatsheet: docs/cheatsheets/tools/netshoot.md
+  - id: netstat
+    placeholder: tools/netstat/
+    cheatsheet: docs/cheatsheets/tools/netstat.md
+  - id: nft
+    placeholder: tools/nft/
+    cheatsheet: docs/cheatsheets/tools/nft.md
+  - id: nftables
+    placeholder: tools/nftables/
+    cheatsheet: docs/cheatsheets/tools/nftables.md
+  - id: nginx
+    placeholder: tools/nginx/
+    cheatsheet: docs/cheatsheets/tools/nginx.md
+  - id: nice
+    placeholder: tools/nice/
+    cheatsheet: docs/cheatsheets/tools/nice.md
+  - id: npm
+    placeholder: tools/npm/
+    cheatsheet: docs/cheatsheets/tools/npm.md
+  - id: nsenter
+    placeholder: tools/nsenter/
+    cheatsheet: docs/cheatsheets/tools/nsenter.md
+  - id: nslookup
+    placeholder: tools/nslookup/
+    cheatsheet: docs/cheatsheets/tools/nslookup.md
+  - id: oauth2-proxy
+    placeholder: tools/oauth2-proxy/
+    cheatsheet: docs/cheatsheets/tools/oauth2-proxy.md
+  - id: opa
+    placeholder: tools/opa/
+    cheatsheet: docs/cheatsheets/tools/opa.md
+  - id: opa-gatekeeper
+    placeholder: tools/opa-gatekeeper/
+    cheatsheet: docs/cheatsheets/tools/opa-gatekeeper.md
+  - id: openbao
+    placeholder: tools/openbao/
+    cheatsheet: docs/cheatsheets/tools/openbao.md
+  - id: openshift
+    placeholder: tools/openshift/
+    cheatsheet: docs/cheatsheets/tools/openshift.md
+  - id: openssf-scorecard
+    placeholder: tools/openssf-scorecard/
+    cheatsheet: docs/cheatsheets/tools/openssf-scorecard.md
+  - id: openssh
+    placeholder: tools/openssh/
+    cheatsheet: docs/cheatsheets/tools/openssh.md
+  - id: openssl
+    placeholder: tools/openssl/
+    cheatsheet: docs/cheatsheets/tools/openssl.md
+  - id: opentofu
+    placeholder: tools/opentofu/
+    cheatsheet: docs/cheatsheets/tools/opentofu.md
+  - id: openvpn
+    placeholder: tools/openvpn/
+    cheatsheet: docs/cheatsheets/tools/openvpn.md
+  - id: openvz
+    placeholder: tools/openvz/
+    cheatsheet: docs/cheatsheets/tools/openvz.md
+  - id: opnsense
+    placeholder: tools/opnsense/
+    cheatsheet: docs/cheatsheets/tools/opnsense.md
+  - id: osv-scanner
+    placeholder: tools/osv-scanner/
+    cheatsheet: docs/cheatsheets/tools/osv-scanner.md
+  - id: pacman
+    placeholder: tools/pacman/
+    cheatsheet: docs/cheatsheets/tools/pacman.md
+  - id: passage
+    placeholder: tools/passage/
+    cheatsheet: docs/cheatsheets/tools/passage.md
+  - id: pg-dump
+    placeholder: tools/pg-dump/
+    cheatsheet: docs/cheatsheets/tools/pg-dump.md
+  - id: pgrep
+    placeholder: tools/pgrep/
+    cheatsheet: docs/cheatsheets/tools/pgrep.md
+  - id: ping
+    placeholder: tools/ping/
+    cheatsheet: docs/cheatsheets/tools/ping.md
+  - id: pip
+    placeholder: tools/pip/
+    cheatsheet: docs/cheatsheets/tools/pip.md
+  - id: podman
+    placeholder: tools/podman/
+    cheatsheet: docs/cheatsheets/tools/podman.md
+  - id: portainer
+    placeholder: tools/portainer/
+    cheatsheet: docs/cheatsheets/tools/portainer.md
+  - id: postgresql
+    placeholder: tools/postgresql/
+    cheatsheet: docs/cheatsheets/tools/postgresql.md
+  - id: powerdns
+    placeholder: tools/powerdns/
+    cheatsheet: docs/cheatsheets/tools/powerdns.md
+  - id: printf
+    placeholder: tools/printf/
+    cheatsheet: docs/cheatsheets/tools/printf.md
+  - id: prometheus
+    placeholder: tools/prometheus/
+    cheatsheet: docs/cheatsheets/tools/prometheus.md
+  - id: prometheus-blackbox-exporter
+    placeholder: tools/prometheus-blackbox-exporter/
+    cheatsheet: docs/cheatsheets/tools/prometheus-blackbox-exporter.md
+  - id: prometheus-node-exporter
+    placeholder: tools/prometheus-node-exporter/
+    cheatsheet: docs/cheatsheets/tools/prometheus-node-exporter.md
+  - id: prometheus-operator
+    placeholder: tools/prometheus-operator/
+    cheatsheet: docs/cheatsheets/tools/prometheus-operator.md
+  - id: proton
+    placeholder: tools/proton/
+    cheatsheet: docs/cheatsheets/tools/proton.md
+  - id: ps
+    placeholder: tools/ps/
+    cheatsheet: docs/cheatsheets/tools/ps.md
+  - id: pstree
+    placeholder: tools/pstree/
+    cheatsheet: docs/cheatsheets/tools/pstree.md
+  - id: pulumi
+    placeholder: tools/pulumi/
+    cheatsheet: docs/cheatsheets/tools/pulumi.md
+  - id: puppet
+    placeholder: tools/puppet/
+    cheatsheet: docs/cheatsheets/tools/puppet.md
+  - id: pwd
+    placeholder: tools/pwd/
+    cheatsheet: docs/cheatsheets/tools/pwd.md
+  - id: pymdown-extensions
+    placeholder: tools/pymdown-extensions/
+    cheatsheet: docs/cheatsheets/tools/pymdown-extensions.md
+  - id: python
+    placeholder: tools/python/
+    cheatsheet: docs/cheatsheets/tools/python.md
+  - id: qemu
+    placeholder: tools/qemu/
+    cheatsheet: docs/cheatsheets/tools/qemu.md
+  - id: rabbitmq
+    placeholder: tools/rabbitmq/
+    cheatsheet: docs/cheatsheets/tools/rabbitmq.md
+  - id: rancher
+    placeholder: tools/rancher/
+    cheatsheet: docs/cheatsheets/tools/rancher.md
+  - id: rclone
+    placeholder: tools/rclone/
+    cheatsheet: docs/cheatsheets/tools/rclone.md
+  - id: realpath
+    placeholder: tools/realpath/
+    cheatsheet: docs/cheatsheets/tools/realpath.md
+  - id: redis
+    placeholder: tools/redis/
+    cheatsheet: docs/cheatsheets/tools/redis.md
+  - id: reloader
+    placeholder: tools/reloader/
+    cheatsheet: docs/cheatsheets/tools/reloader.md
+  - id: renice
+    placeholder: tools/renice/
+    cheatsheet: docs/cheatsheets/tools/renice.md
+  - id: renovate
+    placeholder: tools/renovate/
+    cheatsheet: docs/cheatsheets/tools/renovate.md
+  - id: resolvectl
+    placeholder: tools/resolvectl/
+    cheatsheet: docs/cheatsheets/tools/resolvectl.md
+  - id: rfkill
+    placeholder: tools/rfkill/
+    cheatsheet: docs/cheatsheets/tools/rfkill.md
+  - id: rke2
+    placeholder: tools/rke2/
+    cheatsheet: docs/cheatsheets/tools/rke2.md
+  - id: rm
+    placeholder: tools/rm/
+    cheatsheet: docs/cheatsheets/tools/rm.md
+  - id: route
+    placeholder: tools/route/
+    cheatsheet: docs/cheatsheets/tools/route.md
+  - id: routeros
+    placeholder: tools/routeros/
+    cheatsheet: docs/cheatsheets/tools/routeros.md
+  - id: rpcbind
+    placeholder: tools/rpcbind/
+    cheatsheet: docs/cheatsheets/tools/rpcbind.md
+  - id: rsync
+    placeholder: tools/rsync/
+    cheatsheet: docs/cheatsheets/tools/rsync.md
+  - id: runc
+    placeholder: tools/runc/
+    cheatsheet: docs/cheatsheets/tools/runc.md
+  - id: runsc
+    placeholder: tools/runsc/
+    cheatsheet: docs/cheatsheets/tools/runsc.md
+  - id: salt
+    placeholder: tools/salt/
+    cheatsheet: docs/cheatsheets/tools/salt.md
+  - id: scp
+    placeholder: tools/scp/
+    cheatsheet: docs/cheatsheets/tools/scp.md
+  - id: screen
+    placeholder: tools/screen/
+    cheatsheet: docs/cheatsheets/tools/screen.md
+  - id: sealed-secrets
+    placeholder: tools/sealed-secrets/
+    cheatsheet: docs/cheatsheets/tools/sealed-secrets.md
+  - id: secrets-store-csi-driver
+    placeholder: tools/secrets-store-csi-driver/
+    cheatsheet: docs/cheatsheets/tools/secrets-store-csi-driver.md
+  - id: sed
+    placeholder: tools/sed/
+    cheatsheet: docs/cheatsheets/tools/sed.md
+  - id: seq
+    placeholder: tools/seq/
+    cheatsheet: docs/cheatsheets/tools/seq.md
+  - id: servicelb
+    placeholder: tools/servicelb/
+    cheatsheet: docs/cheatsheets/tools/servicelb.md
+  - id: sftp
+    placeholder: tools/sftp/
+    cheatsheet: docs/cheatsheets/tools/sftp.md
+  - id: sha256sum
+    placeholder: tools/sha256sum/
+    cheatsheet: docs/cheatsheets/tools/sha256sum.md
+  - id: shellcheck
+    placeholder: tools/shellcheck/
+    cheatsheet: docs/cheatsheets/tools/shellcheck.md
+  - id: skopeo
+    placeholder: tools/skopeo/
+    cheatsheet: docs/cheatsheets/tools/skopeo.md
+  - id: sleep
+    placeholder: tools/sleep/
+    cheatsheet: docs/cheatsheets/tools/sleep.md
+  - id: smartctl
+    placeholder: tools/smartctl/
+    cheatsheet: docs/cheatsheets/tools/smartctl.md
+  - id: smartmontools
+    placeholder: tools/smartmontools/
+    cheatsheet: docs/cheatsheets/tools/smartmontools.md
+  - id: snap
+    placeholder: tools/snap/
+    cheatsheet: docs/cheatsheets/tools/snap.md
+  - id: sops
+    placeholder: tools/sops/
+    cheatsheet: docs/cheatsheets/tools/sops.md
+  - id: sops-secrets-operator
+    placeholder: tools/sops-secrets-operator/
+    cheatsheet: docs/cheatsheets/tools/sops-secrets-operator.md
+  - id: sort
+    placeholder: tools/sort/
+    cheatsheet: docs/cheatsheets/tools/sort.md
+  - id: spiffe
+    placeholder: tools/spiffe/
+    cheatsheet: docs/cheatsheets/tools/spiffe.md
+  - id: spire
+    placeholder: tools/spire/
+    cheatsheet: docs/cheatsheets/tools/spire.md
+  - id: sqlite
+    placeholder: tools/sqlite/
+    cheatsheet: docs/cheatsheets/tools/sqlite.md
+  - id: ss
+    placeholder: tools/ss/
+    cheatsheet: docs/cheatsheets/tools/ss.md
+  - id: ssh
+    placeholder: tools/ssh/
+    cheatsheet: docs/cheatsheets/tools/ssh.md
+  - id: ssh-keygen
+    placeholder: tools/ssh-keygen/
+    cheatsheet: docs/cheatsheets/tools/ssh-keygen.md
+  - id: ssh-keyscan
+    placeholder: tools/ssh-keyscan/
+    cheatsheet: docs/cheatsheets/tools/ssh-keyscan.md
+  - id: sshfs
+    placeholder: tools/sshfs/
+    cheatsheet: docs/cheatsheets/tools/sshfs.md
+  - id: stakater-application
+    placeholder: tools/stakater-application/
+    cheatsheet: docs/cheatsheets/tools/stakater-application.md
+  - id: stat
+    placeholder: tools/stat/
+    cheatsheet: docs/cheatsheets/tools/stat.md
+  - id: step-ca
+    placeholder: tools/step-ca/
+    cheatsheet: docs/cheatsheets/tools/step-ca.md
+  - id: strace
+    placeholder: tools/strace/
+    cheatsheet: docs/cheatsheets/tools/strace.md
+  - id: sysctl
+    placeholder: tools/sysctl/
+    cheatsheet: docs/cheatsheets/tools/sysctl.md
+  - id: systemctl
+    placeholder: tools/systemctl/
+    cheatsheet: docs/cheatsheets/tools/systemctl.md
+  - id: systemd
+    placeholder: tools/systemd/
+    cheatsheet: docs/cheatsheets/tools/systemd.md
+  - id: systemd-nspawn
+    placeholder: tools/systemd-nspawn/
+    cheatsheet: docs/cheatsheets/tools/systemd-nspawn.md
+  - id: systemd-resolved
+    placeholder: tools/systemd-resolved/
+    cheatsheet: docs/cheatsheets/tools/systemd-resolved.md
+  - id: tail
+    placeholder: tools/tail/
+    cheatsheet: docs/cheatsheets/tools/tail.md
+  - id: tailscale
+    placeholder: tools/tailscale/
+    cheatsheet: docs/cheatsheets/tools/tailscale.md
+  - id: tc
+    placeholder: tools/tc/
+    cheatsheet: docs/cheatsheets/tools/tc.md
+  - id: tcpdump
+    placeholder: tools/tcpdump/
+    cheatsheet: docs/cheatsheets/tools/tcpdump.md
+  - id: technitium-dns-server
+    placeholder: tools/technitium-dns-server/
+    cheatsheet: docs/cheatsheets/tools/technitium-dns-server.md
+  - id: tee
+    placeholder: tools/tee/
+    cheatsheet: docs/cheatsheets/tools/tee.md
+  - id: telnet
+    placeholder: tools/telnet/
+    cheatsheet: docs/cheatsheets/tools/telnet.md
+  - id: termshark
+    placeholder: tools/termshark/
+    cheatsheet: docs/cheatsheets/tools/termshark.md
+  - id: terraform
+    placeholder: tools/terraform/
+    cheatsheet: docs/cheatsheets/tools/terraform.md
+  - id: terraform-provider-cloudflare
+    placeholder: tools/terraform-provider-cloudflare/
+    cheatsheet: docs/cheatsheets/tools/terraform-provider-cloudflare.md
+  - id: terraform-provider-keycloak
+    placeholder: tools/terraform-provider-keycloak/
+    cheatsheet: docs/cheatsheets/tools/terraform-provider-keycloak.md
+  - id: terraform-provider-tailscale
+    placeholder: tools/terraform-provider-tailscale/
+    cheatsheet: docs/cheatsheets/tools/terraform-provider-tailscale.md
+  - id: test
+    placeholder: tools/test/
+    cheatsheet: docs/cheatsheets/tools/test.md
+  - id: tmux
+    placeholder: tools/tmux/
+    cheatsheet: docs/cheatsheets/tools/tmux.md
+  - id: top
+    placeholder: tools/top/
+    cheatsheet: docs/cheatsheets/tools/top.md
+  - id: touch
+    placeholder: tools/touch/
+    cheatsheet: docs/cheatsheets/tools/touch.md
+  - id: tr
+    placeholder: tools/tr/
+    cheatsheet: docs/cheatsheets/tools/tr.md
+  - id: traceroute
+    placeholder: tools/traceroute/
+    cheatsheet: docs/cheatsheets/tools/traceroute.md
+  - id: traefik
+    placeholder: tools/traefik/
+    cheatsheet: docs/cheatsheets/tools/traefik.md
+  - id: trivy
+    placeholder: tools/trivy/
+    cheatsheet: docs/cheatsheets/tools/trivy.md
+  - id: trust-manager
+    placeholder: tools/trust-manager/
+    cheatsheet: docs/cheatsheets/tools/trust-manager.md
+  - id: type
+    placeholder: tools/type/
+    cheatsheet: docs/cheatsheets/tools/type.md
+  - id: ufw
+    placeholder: tools/ufw/
+    cheatsheet: docs/cheatsheets/tools/ufw.md
+  - id: umount
+    placeholder: tools/umount/
+    cheatsheet: docs/cheatsheets/tools/umount.md
+  - id: unattended-upgrades
+    placeholder: tools/unattended-upgrades/
+    cheatsheet: docs/cheatsheets/tools/unattended-upgrades.md
+  - id: unbound
+    placeholder: tools/unbound/
+    cheatsheet: docs/cheatsheets/tools/unbound.md
+  - id: uniq
+    placeholder: tools/uniq/
+    cheatsheet: docs/cheatsheets/tools/uniq.md
+  - id: unshare
+    placeholder: tools/unshare/
+    cheatsheet: docs/cheatsheets/tools/unshare.md
+  - id: uutils-coreutils
+    placeholder: tools/uutils-coreutils/
+    cheatsheet: docs/cheatsheets/tools/uutils-coreutils.md
+  - id: vale
+    placeholder: tools/vale/
+    cheatsheet: docs/cheatsheets/tools/vale.md
+  - id: vault
+    placeholder: tools/vault/
+    cheatsheet: docs/cheatsheets/tools/vault.md
+  - id: velero
+    placeholder: tools/velero/
+    cheatsheet: docs/cheatsheets/tools/velero.md
+  - id: vfio
+    placeholder: tools/vfio/
+    cheatsheet: docs/cheatsheets/tools/vfio.md
+  - id: vkd3d
+    placeholder: tools/vkd3d/
+    cheatsheet: docs/cheatsheets/tools/vkd3d.md
+  - id: wc
+    placeholder: tools/wc/
+    cheatsheet: docs/cheatsheets/tools/wc.md
+  - id: which
+    placeholder: tools/which/
+    cheatsheet: docs/cheatsheets/tools/which.md
+  - id: whois
+    placeholder: tools/whois/
+    cheatsheet: docs/cheatsheets/tools/whois.md
+  - id: winbox
+    placeholder: tools/winbox/
+    cheatsheet: docs/cheatsheets/tools/winbox.md
+  - id: wine
+    placeholder: tools/wine/
+    cheatsheet: docs/cheatsheets/tools/wine.md
+  - id: wireguard
+    placeholder: tools/wireguard/
+    cheatsheet: docs/cheatsheets/tools/wireguard.md
+  - id: wireshark
+    placeholder: tools/wireshark/
+    cheatsheet: docs/cheatsheets/tools/wireshark.md
+  - id: xargs
+    placeholder: tools/xargs/
+    cheatsheet: docs/cheatsheets/tools/xargs.md
+  - id: yamllint
+    placeholder: tools/yamllint/
+    cheatsheet: docs/cheatsheets/tools/yamllint.md
+  - id: yq
+    placeholder: tools/yq/
+    cheatsheet: docs/cheatsheets/tools/yq.md
+  - id: zerotier
+    placeholder: tools/zerotier/
+    cheatsheet: docs/cheatsheets/tools/zerotier.md
+  - id: zizmor
+    placeholder: tools/zizmor/
+    cheatsheet: docs/cheatsheets/tools/zizmor.md
+  - id: zot
+    placeholder: tools/zot/
+    cheatsheet: docs/cheatsheets/tools/zot.md
+  - id: zsh
+    placeholder: tools/zsh/
+    cheatsheet: docs/cheatsheets/tools/zsh.md

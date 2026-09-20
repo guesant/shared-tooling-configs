@@ -1,32 +1,40 @@
 # shared-tooling-configs
 
-Reusable configurations and presets for code quality, CI/CD, documentation, dependency management, security, infrastructure, and development tooling.
+Reusable configurations, presets, references, and engineering tooling shared across projects.
 
 ## Purpose
 
 This repository centralizes reusable engineering tooling without coupling discovery to a single directory hierarchy.
 
-Tool-specific configurations live under `tools/`. The catalog describes the capabilities, languages, targets, lifecycle stages, and supporting utilities associated with those tools. Profiles and recipes compose reusable configurations for different levels of strictness and project contexts.
+Tool-specific namespaces live under `tools/`. A directory may initially contain only `.gitkeep`: its existence reserves a canonical location and does not imply that a reusable configuration has already been extracted.
 
 ## Structure
 
-- `tools/`: canonical location for tool-specific configurations and presets.
-- `catalog/`: shared taxonomy used to classify and discover tooling and utilities.
-- `docs/cheatsheets/`: concise command reference for tools and supporting utilities.
+- `tools/`: canonical namespace for every cataloged tool.
+- `catalog/`: taxonomies and generated catalogs, including tools discovered in documentation.
+- `docs/cheatsheets/`: concise reference for cataloged tools and supporting utilities.
 - `profiles/`: cross-tool levels of strictness and engineering expectations.
-- `recipes/`: compositions intended for concrete project types and stacks.
+- `recipes/`: compositions for concrete project types and stacks.
 - `policies/`: tool-independent engineering rules and expectations.
 - `templates/`: reusable repository and project artifacts.
-- `inventory/`: findings extracted from existing repositories before promotion into shared presets.
+- `inventory/`: evidence collected from existing repositories and documentation.
 - `scripts/`: validation, generation, inventory, and maintenance automation.
+
+## Discovery model
+
+The repository distinguishes two kinds of evidence:
+
+1. runtime/repository inventory records tools that a source repository actually uses or configures;
+2. documentation inventory records tools that its documentation discusses, compares, teaches, or references.
+
+A documentation mention reserves both `tools/<id>/` and `docs/cheatsheets/tools/<id>.md`, even when no preset exists yet.
 
 ## Workflow
 
-1. inventory existing repositories;
-2. identify reusable tooling, utilities, and patterns;
-3. classify them using the catalog;
-4. document recurring commands in cheatsheets;
-5. promote reusable configurations into tool presets;
-6. compose presets through profiles and recipes.
-
-A utility may have a cheatsheet without having a reusable configuration under `tools/`. Tool configuration is intentionally left empty during the initial inventory phase.
+1. inventory repositories and documentation;
+2. normalize names and aliases;
+3. reserve a canonical tool namespace;
+4. add a cheatsheet reference;
+5. classify capabilities and targets;
+6. promote proven reusable configuration into presets;
+7. compose presets through profiles and recipes.

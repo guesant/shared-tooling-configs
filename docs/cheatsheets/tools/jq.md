@@ -1,0 +1,33 @@
+# jq
+
+Quick reference for jq, a tool or engineering platform mentioned in the `guesant/hl-infrastructure` documentation.
+
+## Repository mapping
+
+- Catalog id: `jq`
+- Configuration namespace: `tools/jq/`
+- Discovery source: `guesant/hl-infrastructure/docs/`
+- Current phase: inventory and reference
+
+## Extended reference
+
+A more detailed reference already exists at [jq](../structured-data/jq.md).
+
+## CLI entry point
+
+```sh
+command -v jq
+jq --help
+```
+
+## Keep here
+
+Add stable, reusable reference material only:
+
+- version and installation checks;
+- read-only inspection commands;
+- validation or lint commands;
+- safe troubleshooting commands;
+- links to presets, profiles, recipes, or policies once they are extracted.
+
+Project-specific procedures belong in the project that owns the deployment.

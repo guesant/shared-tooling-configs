@@ -1,40 +1,437 @@
 # Cheatsheets
 
-Cheatsheets are compact reference pages for commands that recur across projects.
+This directory contains compact reference pages for every tool identified in the `guesant/hl-infrastructure` documentation audit.
 
-They are intentionally separate from `tools/`:
+A cheatsheet does not imply that the tool is deployed or configured by that repository. The inventory distinguishes tools that are actually used from tools that are only discussed, compared, or referenced.
 
-- `tools/` contains reusable configuration and presets;
-- `catalog/utilities.yaml` records small supporting commands and where they are documented;
-- `docs/cheatsheets/` records how to use tools and utilities quickly.
+## A
 
-A command can appear here without receiving its own tool directory.
+- [Actionlint](tools/actionlint.md)
+- [Age](tools/age.md)
+- [Age Keygen](tools/age-keygen.md)
+- [Age Plugin Se](tools/age-plugin-se.md)
+- [Alertmanager](tools/alertmanager.md)
+- [Ansible](tools/ansible.md)
+- [Ansible Galaxy](tools/ansible-galaxy.md)
+- [Ansible Lint](tools/ansible-lint.md)
+- [Ansible Playbook](tools/ansible-playbook.md)
+- [Ansible Pull](tools/ansible-pull.md)
+- [Apache Http Server](tools/apache-http-server.md)
+- [Apk](tools/apk.md)
+- [Apparmor](tools/apparmor.md)
+- [Apt](tools/apt.md)
+- [Argo CD](tools/argocd.md)
+- [Argo Events](tools/argo-events.md)
+- [Argo Image Updater](tools/argo-image-updater.md)
+- [Argo Rollouts](tools/argo-rollouts.md)
+- [Argo Workflows](tools/argo-workflows.md)
+- [Arptables](tools/arptables.md)
+- [Ast Grep](tools/ast-grep.md)
+- [Auditd](tools/auditd.md)
+- [Avahi](tools/avahi.md)
+- [Avahi Resolve](tools/avahi-resolve.md)
+- [Awk](tools/awk.md)
+- [AWS](tools/aws.md)
+- [Azure](tools/azure.md)
 
-## Shell
+## B
 
-- [Bash](shell/bash.md)
-- [Text processing](shell/text-processing.md)
-- [Files and streams](shell/files-and-streams.md)
+- [Barman Cloud](tools/barman-cloud.md)
+- [Base64](tools/base64.md)
+- [Bash](tools/bash.md)
+- [BIND](tools/bind.md)
+- [Bitwarden](tools/bitwarden.md)
+- [Blkid](tools/blkid.md)
+- [Bottles](tools/bottles.md)
+- [Bubblewrap](tools/bubblewrap.md)
+- [Buildah](tools/buildah.md)
+- [Buildkit](tools/buildkit.md)
+- [Busybox](tools/busybox.md)
 
-## Structured data
+## C
 
-- [jq](structured-data/jq.md)
-- [yq](structured-data/yq.md)
+- [Calico](tools/calico.md)
+- [Cassandra](tools/cassandra.md)
+- [Cat](tools/cat.md)
+- [Cert Manager](tools/cert-manager.md)
+- [Checkov](tools/checkov.md)
+- [Chef](tools/chef.md)
+- [Chmod](tools/chmod.md)
+- [Chown](tools/chown.md)
+- [Chroot](tools/chroot.md)
+- [Cilium](tools/cilium.md)
+- [Cilium Cli](tools/cilium-cli.md)
+- [Cloudflare](tools/cloudflare.md)
+- [Cloudflared](tools/cloudflared.md)
+- [CloudNativePG](tools/cloudnative-pg.md)
+- [Cmctl](tools/cmctl.md)
+- [Cnpg Barman Plugin](tools/cnpg-barman-plugin.md)
+- [CodeQL](tools/codeql.md)
+- [Comm](tools/comm.md)
+- [Commitlint](tools/commitlint.md)
+- [Conftest](tools/conftest.md)
+- [Conmon](tools/conmon.md)
+- [Containerd](tools/containerd.md)
+- [Containerd Shim](tools/containerd-shim.md)
+- [CoreDNS](tools/coredns.md)
+- [Coreutils](tools/coreutils.md)
+- [Cp](tools/cp.md)
+- [Crictl](tools/crictl.md)
+- [Crossover](tools/crossover.md)
+- [Crun](tools/crun.md)
+- [Cryptomator](tools/cryptomator.md)
+- [cspell](tools/cspell.md)
+- [Curl](tools/curl.md)
+- [Cut](tools/cut.md)
 
-## Network and access
+## D
 
-- [curl](network/curl.md)
-- [OpenSSH](network/openssh.md)
+- [Dash](tools/dash.md)
+- [Dashy](tools/dashy.md)
+- [Date](tools/date.md)
+- [Datree](tools/datree.md)
+- [Deck](tools/deck.md)
+- [Df](tools/df.md)
+- [Diff](tools/diff.md)
+- [Dig](tools/dig.md)
+- [Discord](tools/discord.md)
+- [Dmesg](tools/dmesg.md)
+- [Dnf](tools/dnf.md)
+- [Dnsmasq](tools/dnsmasq.md)
+- [Docker](tools/docker.md)
+- [Docker Buildx](tools/docker-buildx.md)
+- [Docker Compose](tools/docker-compose.md)
+- [Docker Swarm](tools/docker-swarm.md)
+- [Dockerd](tools/dockerd.md)
+- [Du](tools/du.md)
+- [DXVK](tools/dxvk.md)
 
-## Security
+## E
 
-- [OpenSSL](security/openssl.md)
+- [Ebtables](tools/ebtables.md)
+- [Echo](tools/echo.md)
+- [Elasticsearch](tools/elasticsearch.md)
+- [Envoy](tools/envoy.md)
+- [etcd](tools/etcd.md)
+- [External Secrets Operator](tools/external-secrets-operator.md)
 
-## System
+## F
 
-- [systemd](system/systemd.md)
-- [Host network utilities](system/host-network.md)
+- [Fail2ban](tools/fail2ban.md)
+- [Find](tools/find.md)
+- [Firecracker](tools/firecracker.md)
+- [Firewall Cmd](tools/firewall-cmd.md)
+- [Firewalld](tools/firewalld.md)
+- [Fish](tools/fish.md)
+- [Flannel](tools/flannel.md)
 
-## Version control
+## G
 
-- [Git](git/git.md)
+- [Gcc](tools/gcc.md)
+- [Git](tools/git.md)
+- [GitHub](tools/github.md)
+- [GitHub Actions](tools/github-actions.md)
+- [GitHub CLI](tools/github-cli.md)
+- [Gitleaks](tools/gitleaks.md)
+- [GnuPG](tools/gnupg.md)
+- [Gocryptfs](tools/gocryptfs.md)
+- [Google Cloud](tools/google-cloud.md)
+- [Gpg](tools/gpg.md)
+- [Gpg Agent](tools/gpg-agent.md)
+- [Grafana](tools/grafana.md)
+- [Grafana Alloy](tools/grafana-alloy.md)
+- [Grep](tools/grep.md)
+- [gVisor](tools/gvisor.md)
+
+## H
+
+- [Hadolint](tools/hadolint.md)
+- [HAProxy](tools/haproxy.md)
+- [Harbor](tools/harbor.md)
+- [Head](tools/head.md)
+- [Headscale](tools/headscale.md)
+- [Helm](tools/helm.md)
+- [History](tools/history.md)
+- [Htop](tools/htop.md)
+- [Hubble](tools/hubble.md)
+
+## I
+
+- [Incus](tools/incus.md)
+- [Infisical](tools/infisical.md)
+- [Info](tools/info.md)
+- [Ip6tables](tools/ip6tables.md)
+- [Iperf3](tools/iperf3.md)
+- [iproute2](tools/iproute2.md)
+- [Ipset](tools/ipset.md)
+- [Iptables](tools/iptables.md)
+- [Iptables Nft](tools/iptables-nft.md)
+- [Istio](tools/istio.md)
+
+## J
+
+- [Jmeter](tools/jmeter.md)
+- [Journalctl](tools/journalctl.md)
+- [Journald](tools/journald.md)
+- [jq](tools/jq.md)
+- [jscpd](tools/jscpd.md)
+- [Just](tools/just.md)
+
+## K
+
+- [k0s](tools/k0s.md)
+- [k3s](tools/k3s.md)
+- [k6](tools/k6.md)
+- [Kafka](tools/kafka.md)
+- [Kargo](tools/kargo.md)
+- [Kata Containers](tools/kata-containers.md)
+- [Kata Runtime](tools/kata-runtime.md)
+- [Keycloak](tools/keycloak.md)
+- [Kill](tools/kill.md)
+- [Kine](tools/kine.md)
+- [Kong](tools/kong.md)
+- [Kong Ingress Controller](tools/kong-ingress-controller.md)
+- [Kong Konnect](tools/kong-konnect.md)
+- [Kopia](tools/kopia.md)
+- [KSOPS](tools/ksops.md)
+- [Kube Bench](tools/kube-bench.md)
+- [Kube Linter](tools/kube-linter.md)
+- [Kube Prometheus Stack](tools/kube-prometheus-stack.md)
+- [Kube Proxy](tools/kube-proxy.md)
+- [Kube State Metrics](tools/kube-state-metrics.md)
+- [Kubeadm](tools/kubeadm.md)
+- [Kubeconform](tools/kubeconform.md)
+- [Kubectl](tools/kubectl.md)
+- [Kubelet](tools/kubelet.md)
+- [Kubernetes](tools/kubernetes.md)
+- [Kubescape](tools/kubescape.md)
+- [Kustomize](tools/kustomize.md)
+- [KVM](tools/kvm.md)
+- [Kyverno](tools/kyverno.md)
+
+## L
+
+- [Languagetool](tools/languagetool.md)
+- [Libpod](tools/libpod.md)
+- [Libvirt](tools/libvirt.md)
+- [Linkerd](tools/linkerd.md)
+- [Local Path Provisioner](tools/local-path-provisioner.md)
+- [Logrotate](tools/logrotate.md)
+- [Loki](tools/loki.md)
+- [Longhorn](tools/longhorn.md)
+- [Ls](tools/ls.md)
+- [Lsblk](tools/lsblk.md)
+- [Lsns](tools/lsns.md)
+- [Lsof](tools/lsof.md)
+- [LXC](tools/lxc.md)
+- [LXD](tools/lxd.md)
+- [Lychee](tools/lychee.md)
+
+## M
+
+- [Machinectl](tools/machinectl.md)
+- [Make](tools/make.md)
+- [Markdownlint Cli2](tools/markdownlint-cli2.md)
+- [Material for MkDocs](tools/mkdocs-material.md)
+- [Maven](tools/maven.md)
+- [Mermaid](tools/mermaid.md)
+- [Microk8s](tools/microk8s.md)
+- [Mkdir](tools/mkdir.md)
+- [MkDocs](tools/mkdocs.md)
+- [Molecule](tools/molecule.md)
+- [MongoDB](tools/mongodb.md)
+- [Mount](tools/mount.md)
+- [Mtr](tools/mtr.md)
+- [Mv](tools/mv.md)
+- [MySQL](tools/mysql.md)
+
+## N
+
+- [NATS](tools/nats.md)
+- [Netcat](tools/netcat.md)
+- [Netfilter](tools/netfilter.md)
+- [Netshoot](tools/netshoot.md)
+- [Netstat](tools/netstat.md)
+- [Nft](tools/nft.md)
+- [Nftables](tools/nftables.md)
+- [Nginx](tools/nginx.md)
+- [Nice](tools/nice.md)
+- [npm](tools/npm.md)
+- [Nsenter](tools/nsenter.md)
+- [Nslookup](tools/nslookup.md)
+
+## O
+
+- [oauth2-proxy](tools/oauth2-proxy.md)
+- [OPA](tools/opa.md)
+- [OPA Gatekeeper](tools/opa-gatekeeper.md)
+- [Openbao](tools/openbao.md)
+- [Openshift](tools/openshift.md)
+- [OpenSSF Scorecard](tools/openssf-scorecard.md)
+- [OpenSSH](tools/openssh.md)
+- [OpenSSL](tools/openssl.md)
+- [OpenTofu](tools/opentofu.md)
+- [Openvpn](tools/openvpn.md)
+- [Openvz](tools/openvz.md)
+- [Opnsense](tools/opnsense.md)
+- [OSV-Scanner](tools/osv-scanner.md)
+
+## P
+
+- [Pacman](tools/pacman.md)
+- [Passage](tools/passage.md)
+- [Pg Dump](tools/pg-dump.md)
+- [Pgrep](tools/pgrep.md)
+- [Ping](tools/ping.md)
+- [Pip](tools/pip.md)
+- [Podman](tools/podman.md)
+- [Portainer](tools/portainer.md)
+- [PostgreSQL](tools/postgresql.md)
+- [PowerDNS](tools/powerdns.md)
+- [Printf](tools/printf.md)
+- [Prometheus](tools/prometheus.md)
+- [Prometheus Blackbox Exporter](tools/prometheus-blackbox-exporter.md)
+- [Prometheus Node Exporter](tools/prometheus-node-exporter.md)
+- [Prometheus Operator](tools/prometheus-operator.md)
+- [Proton](tools/proton.md)
+- [Ps](tools/ps.md)
+- [Pstree](tools/pstree.md)
+- [Pulumi](tools/pulumi.md)
+- [Puppet](tools/puppet.md)
+- [Pwd](tools/pwd.md)
+- [PyMdown Extensions](tools/pymdown-extensions.md)
+- [Python](tools/python.md)
+
+## Q
+
+- [QEMU](tools/qemu.md)
+
+## R
+
+- [Rabbitmq](tools/rabbitmq.md)
+- [Rancher](tools/rancher.md)
+- [Rclone](tools/rclone.md)
+- [Realpath](tools/realpath.md)
+- [Redis](tools/redis.md)
+- [Reloader](tools/reloader.md)
+- [Renice](tools/renice.md)
+- [Renovate](tools/renovate.md)
+- [Resolvectl](tools/resolvectl.md)
+- [Rfkill](tools/rfkill.md)
+- [RKE2](tools/rke2.md)
+- [Rm](tools/rm.md)
+- [Route](tools/route.md)
+- [Routeros](tools/routeros.md)
+- [Rpcbind](tools/rpcbind.md)
+- [Rsync](tools/rsync.md)
+- [Runc](tools/runc.md)
+- [Runsc](tools/runsc.md)
+
+## S
+
+- [Salt](tools/salt.md)
+- [Scp](tools/scp.md)
+- [Screen](tools/screen.md)
+- [Sealed Secrets](tools/sealed-secrets.md)
+- [Secrets Store Csi Driver](tools/secrets-store-csi-driver.md)
+- [Sed](tools/sed.md)
+- [Seq](tools/seq.md)
+- [Servicelb](tools/servicelb.md)
+- [SFTP](tools/sftp.md)
+- [Sha256sum](tools/sha256sum.md)
+- [Shellcheck](tools/shellcheck.md)
+- [Skopeo](tools/skopeo.md)
+- [Sleep](tools/sleep.md)
+- [Smartctl](tools/smartctl.md)
+- [Smartmontools](tools/smartmontools.md)
+- [Snap](tools/snap.md)
+- [SOPS](tools/sops.md)
+- [Sops Secrets Operator](tools/sops-secrets-operator.md)
+- [Sort](tools/sort.md)
+- [SPIFFE](tools/spiffe.md)
+- [SPIRE](tools/spire.md)
+- [SQLite](tools/sqlite.md)
+- [Ss](tools/ss.md)
+- [SSH](tools/ssh.md)
+- [Ssh Keygen](tools/ssh-keygen.md)
+- [Ssh Keyscan](tools/ssh-keyscan.md)
+- [SSHFS](tools/sshfs.md)
+- [Stakater Application](tools/stakater-application.md)
+- [Stat](tools/stat.md)
+- [Step Ca](tools/step-ca.md)
+- [Strace](tools/strace.md)
+- [Sysctl](tools/sysctl.md)
+- [Systemctl](tools/systemctl.md)
+- [systemd](tools/systemd.md)
+- [systemd-nspawn](tools/systemd-nspawn.md)
+- [systemd-resolved](tools/systemd-resolved.md)
+
+## T
+
+- [Tail](tools/tail.md)
+- [Tailscale](tools/tailscale.md)
+- [Tc](tools/tc.md)
+- [Tcpdump](tools/tcpdump.md)
+- [Technitium DNS Server](tools/technitium-dns-server.md)
+- [Tee](tools/tee.md)
+- [Telnet](tools/telnet.md)
+- [Termshark](tools/termshark.md)
+- [Terraform](tools/terraform.md)
+- [Terraform Provider Cloudflare](tools/terraform-provider-cloudflare.md)
+- [Terraform Provider Keycloak](tools/terraform-provider-keycloak.md)
+- [Terraform Provider Tailscale](tools/terraform-provider-tailscale.md)
+- [Test](tools/test.md)
+- [tmux](tools/tmux.md)
+- [Top](tools/top.md)
+- [Touch](tools/touch.md)
+- [Tr](tools/tr.md)
+- [Traceroute](tools/traceroute.md)
+- [Traefik](tools/traefik.md)
+- [Trivy](tools/trivy.md)
+- [Trust Manager](tools/trust-manager.md)
+- [Type](tools/type.md)
+
+## U
+
+- [UFW](tools/ufw.md)
+- [Umount](tools/umount.md)
+- [Unattended Upgrades](tools/unattended-upgrades.md)
+- [Unbound](tools/unbound.md)
+- [Uniq](tools/uniq.md)
+- [Unshare](tools/unshare.md)
+- [uutils coreutils](tools/uutils-coreutils.md)
+
+## V
+
+- [Vale](tools/vale.md)
+- [Vault](tools/vault.md)
+- [Velero](tools/velero.md)
+- [Vfio](tools/vfio.md)
+- [VKD3D](tools/vkd3d.md)
+
+## W
+
+- [Wc](tools/wc.md)
+- [Which](tools/which.md)
+- [Whois](tools/whois.md)
+- [Winbox](tools/winbox.md)
+- [Wine](tools/wine.md)
+- [WireGuard](tools/wireguard.md)
+- [Wireshark](tools/wireshark.md)
+
+## X
+
+- [Xargs](tools/xargs.md)
+
+## Y
+
+- [Yamllint](tools/yamllint.md)
+- [yq](tools/yq.md)
+
+## Z
+
+- [ZeroTier](tools/zerotier.md)
+- [zizmor](tools/zizmor.md)
+- [Zot](tools/zot.md)
+- [Zsh](tools/zsh.md)
+
